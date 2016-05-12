@@ -1,61 +1,60 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Zadania JS</title>
-    </head>
-    <body>
-        <p>Zadania wypisują się w konsoli.</p>
-        <h3>JavaScript - Ćwiczenia - Zmienne, wyrażenia warunkowe i pętle</h3>
-        <h3>Ćwiczenie 1</h3>
-        <p>Stwórz tyle zmiennych ile różnych znasz typów. Każdą odpowiednio nazwij i wstaw do nich odpowiednie dane. Następnie dodaj do siebie różne zmienne i zobacz jakiego typu jest wynik. Napisz w komentarzu przy każdej zmiennej jej typ. Wypisz każdą zmienną w konsoli.
-            Zwróć uwagę jak zmieniają się typy danych w zależności od tego jakie typy ze sobą dodajemy. Jest to tak zwane niejawna konwersja dancyh (silnik JavaScript bez naszego udziału zmienia typ danych).
-        </p>
-        <h3>Ćwiczenie 2</h3>
-        <p>Stwórz tablicę z listą swoich ulubionych owoców. Nastepnie: 1. Wypisz pierwszy owoc w konsoli, 2. Wypisz ostatni owoc w konsoli (skorzystaj z atrybutu length).</p>
-        <h3>Ćwiczenie 5</h3>
-        <p>Napisz pętlę for, która będzie iterowała od 0 do 15. W każdej iteracji, sprawdź czy bieżąca liczba jest parzysta czy nieparzysta i wyświetl informacje w konsoli.</p>
-        <br>
-        <h3>JavaScript - Ćwiczenia - Funkcje</h3>
-        <h3>Ćwiczenie 1</h3>
-        <p>Napisz funkcję miksującą warzywa np. o nazwie miksowanie, która jako argument będzie przyjmowała warzywo. Zadaniem funkcji jest zmiksowanie warzywa i zwrócenie zmiksowanej papki. Wypisz w konsoli (nie w funkcji, funkcja tylko zwraca) tekst zwrócony przez funkcję. Pamiętaj o stworzeniu odpowiedniego komentarza.
-            Przykład:
-            input -> "marchewka"
-            output -> "zmiksowana marchewka"
-        </p>
-        <h3>Ćwiczenie 2</h3>
-        <p>Napisz funkcję, która przyjmuje jako parametry dwie liczby i wyświetla większą z nich.
-            Przykład:
-            input -> 5, 29
-            output -> 29
-        </p>
-        <h3>Ćwiczenie 3</h3>
-        <p>Napisz funkcję, która przyjmuje jako parametry dowolną ilość liczb i wyświetla większą z nich. Skorzystaj z zmiennej arguments.
-            Przykład:
-            input -> 5, 29, 6, 4, 34, 56, 2, 3
-            output -> 56
-        </p>
-        <h3>Ćwiczenie 4</h3>
-        <p>Stwórz funkcję która będzie zwracała sumę 3 liczb przekazaną jako argumenty.
-            Przykład:
-            input -> 1,2,3
-            output -> 6
-        </p>
-        <h3>Ćwiczenie 5</h3>
-        <p>Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wypisanie 10 razy "Wszędzie i zawsze pisząc kod używam funkcji oraz pilnuję, żeby nie tworzyć zmiennych globalnych".</p>
-        <h3>Cwiczenie 6</h3>
-        <p>Napisz funkcję rentCost(days) która będzie pobierać liczbę dni jako argument a następnie pnie wyliczać koszt wynajmu pokoju według podanego wzoru: Wynajem trwa 1 dzień - koszt pokoju 200zł/dzień Wynajem trwa 2-3 dni - koszt pokoju 180zł/dzień Wynajem trwa 4-7 dni - koszt pokoju 160zł/dzień Wynajem trwa 8+ dni - koszt pokoju 150zł/dzień.
-            Dodatkowo za każdy pełny tydzień przysługuje 50zł zniżki. Przykład:
-            input -> 8
-            output -> 1150
-        </p>
-        <h3>Ćwiczenie 7</h3>
-        <p>Napisz funkcję rockPaperScissors(player1, player2) która będzie pobierać dwa napisy i zwracać infromacje kto wygrał. Poprawne napisy przyjmowane przez funkcjię to: papier, nożyce, kamień.
-            Funkcja ma zwracać jeden z 4 napisów: "Gracz 1 wygrał", "Gracz 2 wygrał" "Remis", "Błędne informacje"
-            Przykład:
-            input -> 8
-            output -> 1150
-        </p>
-        <script src="app.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Zadania JS</title>
+</head>
+
+<body>
+    <p>Zadania wypisują się w konsoli.</p>
+    <h3>JavaScript - Ćwiczenia - Zmienne, wyrażenia warunkowe i pętle</h3>
+    <h3>Ćwiczenie 1</h3>
+    <p>Stwórz tyle zmiennych ile różnych znasz typów. Każdą odpowiednio nazwij i wstaw do nich odpowiednie dane. Następnie dodaj do siebie różne zmienne i zobacz jakiego typu jest wynik. Napisz w komentarzu przy każdej zmiennej jej typ. Wypisz każdą zmienną w konsoli. Zwróć uwagę jak zmieniają się typy danych w zależności od tego jakie typy ze sobą dodajemy. Jest to tak zwane niejawna konwersja dancyh (silnik JavaScript bez naszego udziału zmienia typ danych).
+    </p>
+    <h3>Ćwiczenie 2</h3>
+    <p>Stwórz tablicę z listą swoich ulubionych owoców. Nastepnie: 1. Wypisz pierwszy owoc w konsoli, 2. Wypisz ostatni owoc w konsoli (skorzystaj z atrybutu length).</p>
+    <h3>Ćwiczenie 5</h3>
+    <p>Napisz pętlę for, która będzie iterowała od 0 do 15. W każdej iteracji, sprawdź czy bieżąca liczba jest parzysta czy nieparzysta i wyświetl informacje w konsoli.</p>
+    <br>
+    <h3>JavaScript - Ćwiczenia - Funkcje</h3>
+    <h3>Ćwiczenie 1</h3>
+    <p>Napisz funkcję miksującą warzywa np. o nazwie miksowanie, która jako argument będzie przyjmowała warzywo. Zadaniem funkcji jest zmiksowanie warzywa i zwrócenie zmiksowanej papki. Wypisz w konsoli (nie w funkcji, funkcja tylko zwraca) tekst zwrócony przez funkcję. Pamiętaj o stworzeniu odpowiedniego komentarza. Przykład: input -> "marchewka" output -> "zmiksowana marchewka"
+    </p>
+    <h3>Ćwiczenie 2</h3>
+    <p>Napisz funkcję, która przyjmuje jako parametry dwie liczby i wyświetla większą z nich. Przykład: input -> 5, 29 output -> 29
+    </p>
+    <h3>Ćwiczenie 3</h3>
+    <p>Napisz funkcję, która przyjmuje jako parametry dowolną ilość liczb i wyświetla większą z nich. Skorzystaj z zmiennej arguments. Przykład: input -> 5, 29, 6, 4, 34, 56, 2, 3 output -> 56
+    </p>
+    <h3>Ćwiczenie 4</h3>
+    <p>Stwórz funkcję która będzie zwracała sumę 3 liczb przekazaną jako argumenty. Przykład: input -> 1,2,3 output -> 6
+    </p>
+    <h3>Ćwiczenie 5</h3>
+    <p>Stwórz funkcję anonimową i przypisz ją do zmiennej. Zadaniem funkcji jest wypisanie 10 razy "Wszędzie i zawsze pisząc kod używam funkcji oraz pilnuję, żeby nie tworzyć zmiennych globalnych".</p>
+    <h3>Cwiczenie 6</h3>
+    <p>Napisz funkcję rentCost(days) która będzie pobierać liczbę dni jako argument a następnie pnie wyliczać koszt wynajmu pokoju według podanego wzoru: Wynajem trwa 1 dzień - koszt pokoju 200zł/dzień Wynajem trwa 2-3 dni - koszt pokoju 180zł/dzień Wynajem trwa 4-7 dni - koszt pokoju 160zł/dzień Wynajem trwa 8+ dni - koszt pokoju 150zł/dzień. Dodatkowo za każdy pełny tydzień przysługuje 50zł zniżki. Przykład: input -> 8 output -> 1150
+    </p>
+    <h3>Ćwiczenie 7</h3>
+    <p>Napisz funkcję rockPaperScissors(player1, player2) która będzie pobierać dwa napisy i zwracać infromacje kto wygrał. Poprawne napisy przyjmowane przez funkcjię to: papier, nożyce, kamień. Funkcja ma zwracać jeden z 4 napisów: "Gracz 1 wygrał", "Gracz 2 wygrał" "Remis", "Błędne informacje" Przykład: input -> 8 output -> 1150
+    </p>
+    <h3>Ćwiczenie 8</h3>
+    <p>Napisz funkcję calculateTip(amount, raiting) która będzie pobierać dwa kwotę i opis słowny obsługi. Funkcja ma zwracać albo kwotę napiwku, albo napis "Opis nieczytelny". opis może przyjmować następujące wartości: "Bardzo dobra obsługa" => 25% napiwku, "Dobra obsługa" => 20% napiwku, "Średnia obsługa" =>15% napiwku, "Zła obsługa" => 0% napiwku. Przykład: input -> 100, "Bardzo dobra obsługa" output -> 25</p>
+    <br>
+    <h3>JavaScript - Ćwiczenia - Tablice</h3>
+    <h3>Ćwiczenie 1</h3>
+    <p>Napisz funkcję printTable(array) która przyjmuje tylko jeden parametr - tablice. Następnie przy pomocy pętli for przeiteruj (przejdź) po każdym elemencie i wypisz go w konsoli. Pamiętaj o sprawdzeniu czy przekazany argument jest tablicą! Następnie zastąp swoją funkcje metodą foreach.</p>
+    <h3>Ćwiczenie 2</h3>
+    <p>Napisz dwie funkcje add(array) i multiply(array). Obie mają przyjmować tylko jeden argument - tablicę. Następnie funkcja add ma zsumować wszystkie liczby znajdujące się w tej tablicy (przy pomocy pętli for), a funkcja `multiply ma pomnożyć wszystkie liczby znajdujące się w tablicy (przy pomocy pętli for). Pamiętaj o sprawdzeniu czy przekazany argument jest tablicą!</p>
+    <h3>Ćwiczenie 3</h3>
+    <p>Stwórz tablice z napisami. Potem używając odpowiedniej metody iteracyjnej sprawdź czy napisy w tej tablicy spełniają następujące warunki: 1. Mają co najmniej 10 znaków 2. Mają co najmniej 1 literę 3. Nie zawierają spacji Utwórz 2 tablice: jedną z napisami które spełniają te zasady, drugą z wartościami typu boolean dla każdego napisu (true jeżeli spełnione są warunki, false jeżeli nie).</p>
+    <h3>Ćwiczenie 4</h3>
+    <p>Napisz funkcję reverseSorted(array). Funkcja ta ma przyjmować jako argument jedną zmienną - tablicę. Funkcja ma zwracać tą tablicę posortowaną, a następnie odwróconą. Użyj metod wbudowanych dla tablicy.</p>
+    <h3>Ćwiczenie 5</h3>
+    <p>Napisz funkcję createMultiTable(number). Funkcja ta przyjmuje liczbę całkowitą. Funkcja ta ma zwrócić dwu wymiarową tablicę która w obu wymiarach ma podaną wielkość (tablicę możewsz wypełnić kolejnymi liczbami całkowitymi).</p>
+    <h3>Ćwiczenie 6</h3>
+    <p>Napisz funkcję print2DTable(array) która będzie działać analogicznie do zadania 1 tylko dla tablic 2 wymiarowych. Następnie zastąp swoją funkcje metodą foreach.</p>
+    <script src="app.js"></script>
+</body>
+
 </html>
